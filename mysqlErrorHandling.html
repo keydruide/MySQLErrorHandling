@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
+
+    var str = $('.error').children().text();
+    var pos = str.indexOf('#');
+    var end = str.length - pos;
+    var res = str.substr(pos, end);
+
+    alert(res);
+
     $("#errors").click(function(){
         alert("Text: " + $(".error").text());
     });

@@ -1,0 +1,4 @@
+Firefox:
+https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs
+https://developer.mozilla.org/en-US/Add-ons/Distribution
+https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension
