@@ -1,9 +1,9 @@
 $('document').ready(function(){
 
-    $('head').append('<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />');
-    $('head').append('<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />');
-    $('head').append('<link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css" />');
-    $('head').append('<link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css" />');
+    $('head').append('<link rel="stylesheet" href="https://github.com/keydruide/MySQLErrorHandling/blob/master/css/bootstrap.css" type="text/css" />');
+    $('head').append('<link rel="stylesheet" href="https://github.com/keydruide/MySQLErrorHandling/blob/master/css/bootstrap.min.css" type="text/css" />');
+    $('head').append('<link rel="stylesheet" href="https://github.com/keydruide/MySQLErrorHandling/blob/master/css/bootstrap-theme.css" type="text/css" />');
+    $('head').append('<link rel="stylesheet" href="https://github.com/keydruide/MySQLErrorHandling/blob/master/css/bootstrap-theme.min.css" type="text/css" />');
 
     $("body").click(function(){
 
