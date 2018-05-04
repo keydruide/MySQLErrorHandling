@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "MySqlExpert",
+  "description": "just rainbow puking Dwarfs",
+  "version": "1.0",
+
+  "background": {
+    "scripts": [
+    ]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "jquery.min.js",
+        "MySqlErrorHandling.js"
+      ]
+    }
+  ],
+
+  "icons": {
+    "48": "icon.svg"
+  },
+  "browser_action": {
+    "default_title": "MySqlExpert",
+    "default_icon": "icon.svg"
+  }
+}

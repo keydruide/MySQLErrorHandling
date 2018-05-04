@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,17 +7,21 @@
 <script>
 $(document).ready(function(){
 
+    $(".error").click(function(){
+        alert(getException());
+    });
+
+});
+
+function getException()
+{
     var str = $('.error').children().text();
     var pos = str.indexOf('#');
     var end = str.length - pos;
     var res = str.substr(pos, end);
 
-    alert(res);
-
-    $("#errors").click(function(){
-        alert("Text: " + $(".error").text());
-    });
-});
+    return res;
+}
 </script>
 </head>
 <body>
@@ -33,3 +38,4 @@ sadasdasd
 <button id="errors">Show Error</button>
 </body>
 </html>
+-->
