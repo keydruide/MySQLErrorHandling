@@ -15,7 +15,6 @@
       "js": [
         "scripts/jquery.min.js",
         "scripts/bootstrap.js",
-        "scripts/bootstrap.min.js",
         "scripts/MySqlErrorHandling.js"
       ]
     }
